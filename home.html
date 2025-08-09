@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reservation - Plant Palette</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=RocknRoll+One&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body id="top">
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+    <header class="py-2 bg-white">
+      <nav class="navbar navbar-expand-lg navbar-light" role="navigation" aria-label="Main navigation">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="home.html">
+            <picture>
+              <source media="(min-width: 768px)" srcset="./images/logo-plant-palette (2) 1 (1).jpg" sizes="200px">
+              <source media="(max-width: 767px)" srcset="./images/logo-plant-palette (2) 1 (2).jpg" sizes="150px">
+              <img
+                src="./images/logo-plant-palette (2) 1 (1).jpg"
+                alt="Plant Palette"
+                class="brand-logo"
+              />
+            </picture>
+          </a>
+
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+          <div class="d-flex d-lg-none align-items-center gap-3">
+            <a href="#" class="icon-link" aria-label="Share">
+              <img src="./images/icon/share.jpg" alt="share" class="header-icon" />
+            </a>
+            <a href="#" class="icon-link" aria-label="Favorite">
+              <img src="./images/icon/star.jpg" alt="star" class="header-icon" />
+            </a>
+            <label for="menu-toggle" class="navbar-toggler">
+              <img src="./images/icon/Menu.jpg" alt="menu" class="header-icon" />
+            </label>
+          </div>
+
+          <div class="navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-2 me-auto mb-2 mb-lg-0 gap-lg-4">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold text-uppercase" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold text-uppercase" aria-current="page" href="#">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold text-uppercase" href="about.html">About</a>
+              </li>
+            </ul>
+
+            <div class="d-none d-lg-flex align-items-center gap-3">
+              <a href="#" class="icon-link" aria-label="Share">
+                <img src="./images/icon/share.jpg" alt="share" class="header-icon" />
+              </a>
+              <a href="#" class="icon-link" aria-label="Favorite">
+                <img src="./images/icon/star.jpg" alt="star" class="header-icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" class="container py-5" role="main">
+      <section class="cta-section rounded-4 p-4 p-md-5 my-5">
+        <div class="row g-4 align-items-center" style="display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important;">
+          <div class="col-7 col-lg-7" style="flex: 0 0 60% !important; max-width: 60% !important;">
+            <div class="cta-heading">
+              <div class="cta-line cta-line-1">Every meal is a deposit into</div>
+              <div class="cta-line cta-line-2 highlight">YOUR HEALTH</div>
+              <div class="cta-line cta-line-3">savings account</div>
+            </div>
+            <div class="cta-btn-wrap mt-4 mb-4 text-end">
+              <a href="#" class="btn btn-order px-4 py-3 fw-semibold">ORDER NOW</a>
+            </div>
+            <div class="cta-note-wrap">
+              <p class="cta-note text-muted mb-0">
+                Thousands in Ottawa choose Plant Palette — because your future health
+                begins with today’s delicious, nourishing meal.
+              </p>
+            </div>
+          </div>
+          <div class="col-5 col-lg-5 text-center" style="flex: 0 0 40% !important; max-width: 40% !important;">
+            <div class="cta-image-card">
+              <picture>
+                <source media="(min-width: 768px)" srcset="./images/Frame 90.jpg" sizes="420px">
+                <source media="(max-width: 767px)" srcset="./images/Frame 90.jpg" sizes="300px">
+                <img src="./images/Frame 90.jpg" alt="Happy guest enjoying healthy meal" class="img-fluid cta-image rounded-4" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reserve-section my-5">
+        <div class="reserve-flex">
+          <div class="reserve-left">
+            <div class="reserve-combo d-flex h-100">
+              <div class="reserve-image flex-grow-1" style="background-image: url('./images/Frame 91.jpg')"></div>
+              <div class="reserve-panel">
+                <div class="reserve-line reserve-title-1">RESERVE</div>
+                <div class="reserve-line reserve-title-2">YOUR TABLE</div>
+                <div class="reserve-line reserve-subtitle">YOUR HEALTH<br/>indulgence starts here</div>
+
+                <div class="reserve-field">
+                  <input type="text" class="form-control reserve-input" placeholder="Aug 3, 2025" />
+                </div>
+                <div class="reserve-field">
+                  <input type="text" class="form-control reserve-input" placeholder="6:00 P.M." />
+                </div>
+                <div class="reserve-field">
+                  <input type="text" class="form-control reserve-input" placeholder="2 People" />
+                </div>
+                <div class="reserve-field">
+                  <input type="tel" class="form-control reserve-input" placeholder="Phone number" />
+                </div>
+
+                <div class="reserve-btn-wrap">
+                  <a href="#" class="btn btn-order px-4 py-2 fw-semibold">Reserve Now</a>
+                </div>
+
+                <div class="reserve-note">
+                  Tables fill up fast during peak hours. Secure your spot today.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="reserve-right">
+            <div class="burger-section">
+              <div class="burger-box burger-tagline-box">
+                <p class="burger-tagline">Most Ordered. Most Loved. Most Healthy</p>
+                <h3 class="burger-title">Plant Palette Burger</h3>
+              </div>
+
+              <div class="burger-box burger-image-box">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="./images/burger.jpg" sizes="400px">
+                  <source media="(max-width: 767px)" srcset="./images/burger.jpg" sizes="280px">
+                  <img src="./images/burger.jpg" alt="Plant Palette Burger" class="burger-image" />
+                </picture>
+              </div>
+
+              <div class="burger-box burger-question-box">
+                <p class="burger-question">Are you making the <span class="healthiest-text">healthiest</span> choice today?</p>
+                <p class="burger-description">Find out more nutrition facts on our <span class="menu-link">MENU</span> — the more you know, the better it feels to choose Plant Palette.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-events-section my-5">
+        <div class="two-cards">
+          <div class="ae-card ae-left" style="background-image: url('./images/abouts.jpg')">
+            <div class="ae-overlay">
+              <div class="ae-title">
+                <div class="ae-line">ABOUT</div>
+                <div class="ae-line">PLANT PALETTE</div>
+              </div>
+              <div class="ae-bullets">
+                <div class="ae-bullet">Locally sourced from regenerative farms</div>
+                <div class="ae-bullet">Nutritionist-backed recipes for everyday wellness.</div>
+                <div class="ae-bullet">Artfully plated, irresistibly delicious.</div>
+                <div class="ae-bullet">Community-focused. Plant-powered.</div>
+              </div>
+              <div class="ae-paragraph">
+                Plant Palette began as a dream to create a vibrant space where people could enjoy delicious, plant-based food while being educated about the health benefits of a vegan lifestyle.
+              </div>
+              <div class="ae-btn-wrap">
+                <a href="#" class="btn btn-ae">READ OUR STORY</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="ae-card ae-right" style="background-image: url('./images/events.jpg')">
+            <div class="ae-overlay">
+              <div class="ae-title">
+                <div class="ae-line">PLAN YOUR</div>
+                <div class="ae-line">NEXT EVENT</div>
+              </div>
+              <div class="ae-bullets">
+                <div class="ae-bullet">Crafted with Creativity,</div>
+                <div class="ae-bullet">Rooted in Sustainability,</div>
+                <div class="ae-bullet">Loved by All</div>
+              </div>
+              <div class="ae-paragraph">
+                Whether you're planning a cozy family brunch, a polished corporate tasting, or a mindful wellness retreat — we make it easy, beautiful, and memorable.
+              </div>
+              <div class="ae-btn-wrap">
+                <a href="#" class="btn btn-ae">READ MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mobile-about-section">
+        <div class="mobile-about-overlay">
+          <div class="mobile-about-title">
+            <div class="mobile-about-line">ABOUT</div>
+            <div class="mobile-about-line">PLANT PALETTE</div>
+          </div>
+          <div class="mobile-about-bullets">
+            <div class="mobile-about-bullet">Locally sourced from regenerative farms</div>
+            <div class="mobile-about-bullet">Nutritionist-backed recipes for everyday wellness.</div>
+            <div class="mobile-about-bullet">Artfully plated, irresistibly delicious.</div>
+            <div class="mobile-about-bullet">Community-focused. Plant-powered.</div>
+          </div>
+          <div class="mobile-about-paragraph">
+            Plant Palette began as a dream to create a vibrant space where people could enjoy delicious, plant-based food while being educated about the health benefits of a vegan lifestyle.
+          </div>
+          <div class="mobile-about-btn-wrap">
+            <a href="#" class="mobile-btn-about">READ OUR STORY</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="mobile-event-section">
+        <div class="mobile-event-overlay">
+          <div class="mobile-event-title">
+            <div class="mobile-event-line">PLAN YOUR</div>
+            <div class="mobile-event-line">NEXT EVENT</div>
+          </div>
+          <div class="mobile-event-bullets">
+            <div class="mobile-event-bullet">Crafted with Creativity,</div>
+            <div class="mobile-event-bullet">Rooted in Sustainability,</div>
+            <div class="mobile-event-bullet">Loved by All</div>
+          </div>
+          <div class="mobile-event-paragraph">
+            Whether you're planning a cozy family brunch, a polished corporate tasting, or a mindful wellness retreat — we make it easy, beautiful, and memorable.
+          </div>
+          <div class="mobile-event-btn-wrap">
+            <a href="#" class="mobile-btn-event">READ MORE</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="contact-flex">
+          <div class="contact-left">
+            <div class="contact-title">
+              <div>LET'S CONNECT WITH</div>
+              <div>PLANT PALETTE</div>
+            </div>
+            <div class="contact-block">
+              <div class="contact-item"><span class="label">Call Us:</span></div>
+              <div class="contact-value">(613) 555-9864</div>
+            </div>
+            <div class="contact-block">
+              <div class="contact-item"><span class="label">Email Us:</span></div>
+              <div class="contact-value">hello@plantpaletterestaurant.ca</div>
+            </div>
+            <div class="contact-block">
+              <div class="contact-item"><span class="label">Address:</span></div>
+              <div class="contact-value">
+                999 Greenview Avenue,<br/>
+                Ottawa, ON K4A 0X4
+              </div>
+            </div>
+            <div class="contact-hours">
+              <div>Monday to Friday 11:30am - 8:30pm</div>
+              <div>Saturday 11:00am - 9:00pm</div>
+              <div>Sunday 11:00am - 8:00pm</div>
+            </div>
+          </div>
+          <div class="contact-right">
+            <div class="contact-map" style="background-image: url('./images/Basemap image.jpg')"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section py-5" role="contentinfo">
+      <div class="container">
+        <div class="mobile-logo-section text-center mb-4 d-block d-lg-none">
+          <picture>
+            <source media="(min-width: 768px)" srcset="./images/logo-plant-palette (2) 1 (1).jpg" sizes="120px">
+            <source media="(max-width: 767px)" srcset="./images/logo-plant-palette (2) 1 (2).jpg" sizes="100px">
+            <img src="./images/logo-plant-palette (2) 1 (1).jpg" alt="Plant Palette" class="footer-logo-img" />
+          </picture>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="footer-title mb-3">Menus</h5>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#" class="footer-link">Dine-in | Takeout Menu</a></li>
+              <li><a href="#" class="footer-link">Catering & Events Menu</a></li>
+              <li><a href="#" class="footer-link">Gluten Free Menu</a></li>
+              <li><a href="#" class="footer-link">Kids Menu</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="footer-title mb-3">About Us</h5>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#" class="footer-link">Our History</a></li>
+              <li><a href="#" class="footer-link">Our Values</a></li>
+              <li><a href="#" class="footer-link">Commitment to Sourcing</a></li>
+              <li><a href="#" class="footer-link">Follow Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="footer-title mb-3">Contact Us</h5>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#" class="footer-link">Location</a></li>
+              <li><a href="#" class="footer-link">Hours</a></li>
+              <li><a href="#" class="footer-link">Gift Card</a></li>
+              <li><a href="#" class="footer-link">Feedback</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="footer-title mb-3">Reservation</h5>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#" class="footer-link">Book Now</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="row d-none d-lg-block">
+            <div class="col-12">
+              <div class="footer-logo d-flex align-items-center justify-content-center gap-2">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="./images/logo-plant-palette (2) 1 (1).jpg" sizes="120px">
+                  <source media="(max-width: 767px)" srcset="./images/logo-plant-palette (2) 1 (2).jpg" sizes="100px">
+                  <img src="./images/logo-plant-palette (2) 1 (1).jpg" alt="Plant Palette" class="footer-logo-img" />
+                </picture>
+                <p class="footer-copyright mb-0 ms-1">© 2025 Plant Palette All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row d-block d-lg-none">
+            <div class="col-12">
+              <p class="footer-copyright mb-0 text-center">© 2025 Plant Palette All Rights Reserved</p>
+            </div>
+          </div>
+
+          <div class="scroll-to-top">
+            <a href="#top" class="scroll-top-btn">SCROLL TO TOP</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+  </html>
+

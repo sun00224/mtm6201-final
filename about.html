@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plant Palette</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=RocknRoll+One&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./about.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body id="top">
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Skip to main content</a>
+    <header class="py-2 bg-white">
+      <nav class="navbar navbar-expand-lg navbar-light" role="navigation" aria-label="Main navigation">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="home.html">
+            <picture>
+              <source media="(min-width: 768px)" srcset="./images/logo-plant-palette (2) 1 (1).jpg" sizes="200px">
+              <source media="(max-width: 767px)" srcset="./images/logo-plant-palette (2) 1 (2).jpg" sizes="150px">
+              <img
+                src="./images/logo-plant-palette (2) 1 (1).jpg"
+                alt="Plant Palette"
+                class="brand-logo"
+              />
+            </picture>
+          </a>
+
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+          <div class="d-flex d-lg-none align-items-center gap-3">
+            <a href="#" class="icon-link" aria-label="Share">
+              <img src="./images/icon/share.jpg" alt="share" class="header-icon" />
+            </a>
+            <a href="#" class="icon-link" aria-label="Favorite">
+              <img src="./images/icon/star.jpg" alt="star" class="header-icon" />
+            </a>
+            <label for="menu-toggle" class="navbar-toggler">
+              <img src="./images/icon/Menu.jpg" alt="menu" class="header-icon" />
+            </label>
+          </div>
+
+          <div class="navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-2 me-auto mb-2 mb-lg-0 gap-lg-4">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold text-uppercase" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold text-uppercase" href="#">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold text-uppercase" href="about.html">About</a>
+              </li>
+            </ul>
+
+            <div class="d-none d-lg-flex align-items-center gap-3">
+              <a href="#" class="icon-link" aria-label="Share">
+                <img src="./images/icon/share.jpg" alt="share" class="header-icon" />
+              </a>
+              <a href="#" class="icon-link" aria-label="Favorite">
+                <img src="./images/icon/star.jpg" alt="star" class="header-icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" role="main">
+      <section class="container-fluid p-0 split-section">
+        <div class="row g-0">
+          <div class="col-lg-6">
+            <div class="image-cover" style="background-image: url('./images/1.jpg')"></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="content-wrap p-5 h-100 d-flex flex-column justify-content-center">
+              <h2 class="section-title mb-4">ABOUT US</h2>
+              <h3 class="section-subtitle mb-4">About Plant Palette</h3>
+              <p class="mb-4">Rooted in nature. Designed for wellness.</p>
+              <p class="mb-4">At Plant Palette, every dish begins on a local farm and ends with a purpose: to nourish your body, lift your spirit, and care for the planet.</p>
+              <p class="mb-4">We're more than a restaurant. We're a welcoming space where health-conscious diners, curious omnivores, and plant-based food lovers come together to enjoy vibrant, ethical meals made from fresh, organic ingredients.</p>
+              <p class="mb-4">Our commitment shows in every detail, from our seasonal, locally sourced menu to the calming, intuitive website design that makes it easy to explore, reserve, or plan your next event.</p>
+              <p class="mb-0">Here, dining becomes a choice for wellness, connection, and conscious living — one meaningful, delicious bite at a time.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid p-0 split-section">
+        <div class="row g-0">
+          <div class="col-lg-6">
+            <div class="content-wrap p-5 h-100 d-flex flex-column justify-content-center">
+              <h2 class="section-title mb-4">ABOUT YOU</h2>
+              <h3 class="section-subtitle mb-4">We care about your health—because so should you.</h3>
+              <p class="mb-4">You might not notice it right away, but your body does. The constant fatigue. The weight that won't go away. The small colds that come too often.</p>
+              <p class="mb-4">Your immune system is quietly asking for help.</p>
+              <p class="mb-4">We get it, life is busy. But your health deserves attention.</p>
+              <p class="mb-4">Modern diets filled with processed food, sugar, and additives can lead to long-term inflammation, weight gain, and weakened immunity.</p>
+              <p class="mb-4">Here's the good news: you can change the story.</p>
+              <p class="mb-4">A plant-based diet can help reduce inflammation, support your immune system, and bring your body back to balance, one meal at a time.</p>
+              <p class="mb-4">Just one better choice a day, one more serving of greens can make a real difference.</p>
+              <p class="mb-0">At Plant Palette, we're here to support that journey, because every step you take toward your health, we'll take it with you.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-cover" style="background-image: url('./images/2.jpg')"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid p-0 split-section">
+        <div class="row g-0">
+          <div class="col-lg-6">
+            <div class="image-cover" style="background-image: url('./images/3.jpg')"></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="content-wrap p-5 h-100 d-flex flex-column justify-content-center">
+              <h2 class="section-title mb-4">Discover the Lifestyle</h2>
+              <p class="mb-4">You feel more at home in your body when it's in balance, energized, light, and quietly radiant.</p>
+              <p class="mb-4">Others notice the difference, sometimes in your skin, sometimes in your smile.</p>
+              <p class="mb-4">A plant-rich lifestyle does more than support your health. It gently improves digestion, reduces bloating, and helps calm inflammation, making it easier for your body to reflect the wellness you're building from within.</p>
+              <p class="mb-4">Clean, intentional meals may bring a little more glow to your skin, and a little more ease in how your clothes fit, without chasing numbers or extremes. And sometimes, that quiet shift speaks louder than any trend.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid p-0 split-section">
+        <div class="row g-0">
+          <div class="col-lg-6">
+            <div class="content-wrap p-5 h-100 d-flex flex-column justify-content-center">
+              <h2 class="section-title mb-4">EVENTS</h2>
+              <p class="mb-4">More than a meal. A moment they'll remember.</p>
+              <p class="mb-4">Hosting a wellness brunch or a corporate event? Our plant-based catering turns clean eating into connection, fueling both body and conversation.</p>
+              <p class="mb-4">Thoughtfully prepared dishes do more than nourish; they support digestion, ease bloating, and help guests feel lighter, clearer, and more confident in their skin.</p>
+              <p class="mb-4">Because when guests leave feeling better than they arrived, the experience stays with them.</p>
+              <p class="mb-4">That's why every event we cater is designed to feel intentional, effortless, and uplifting. So your guests don't just eat; they feel cared for, seen, and subtly inspired to live well.</p>
+              <p class="mb-0">Menus are fully customizable. Planning is stress-free. And every dish tells your story of vitality, values, and conscious celebration.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-cover" style="background-image: url('./images/4.jpg')"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section py-5" role="contentinfo">
+      <div class="container">
+        <div class="mobile-logo-section text-center mb-4 d-block d-lg-none">
+          <picture>
+            <source media="(min-width: 768px)" srcset="./images/logo-plant-palette (2) 1 (1).jpg" sizes="120px">
+            <source media="(max-width: 767px)" srcset="./images/logo-plant-palette (2) 1 (2).jpg" sizes="100px">
+            <img src="./images/logo-plant-palette (2) 1 (1).jpg" alt="Plant Palette" class="footer-logo-img" />
+          </picture>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="footer-title mb-3">Menus</h5>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#" class="footer-link">Dine-in | Takeout Menu</a></li>
+              <li><a href="#" class="footer-link">Catering & Events Menu</a></li>
+              <li><a href="#" class="footer-link">Gluten Free Menu</a></li>
+              <li><a href="#" class="footer-link">Kids Menu</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="footer-title mb-3">About Us</h5>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#" class="footer-link">Our History</a></li>
+              <li><a href="#" class="footer-link">Our Values</a></li>
+              <li><a href="#" class="footer-link">Commitment to Sourcing</a></li>
+              <li><a href="#" class="footer-link">Follow Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="footer-title mb-3">Contact Us</h5>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#" class="footer-link">Location</a></li>
+              <li><a href="#" class="footer-link">Hours</a></li>
+              <li><a href="#" class="footer-link">Gift Card</a></li>
+              <li><a href="#" class="footer-link">Feedback</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 class="footer-title mb-3">Reservation</h5>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#" class="footer-link">Book Now</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="row d-none d-lg-block">
+            <div class="col-12">
+              <div class="footer-logo d-flex align-items-center justify-content-center gap-2">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="./images/logo-plant-palette (2) 1 (1).jpg" sizes="120px">
+                  <source media="(max-width: 767px)" srcset="./images/logo-plant-palette (2) 1 (2).jpg" sizes="100px">
+                  <img src="./images/logo-plant-palette (2) 1 (1).jpg" alt="Plant Palette" class="footer-logo-img" />
+                </picture>
+                <p class="footer-copyright mb-0 ms-1">© 2025 Plant Palette All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row d-block d-lg-none">
+            <div class="col-12">
+              <p class="footer-copyright mb-0 text-center">© 2025 Plant Palette All Rights Reserved</p>
+            </div>
+          </div>
+
+          <div class="scroll-to-top">
+            <a href="#top" class="scroll-top-btn">SCROLL TO TOP</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
